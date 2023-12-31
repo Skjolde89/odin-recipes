@@ -1,0 +1,39 @@
+#recipes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-origin: padding-box;
+    background-color: lightgreen;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+}
+
+h1 {
+    color: darkorange;
+    font-size: 60px;
+}
+
+a {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.lasagna {
+    font-size: 30px;
+}
+
+.bread {
+    font-size: 35px;
+}
+
+.oatmeal {
+    font-size: 40px;
+}
