@@ -1,39 +1,59 @@
+body {
+    margin: 0;
+}
+
 #recipes {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-origin: padding-box;
-    background-color: lightgreen;
-    border-radius: 10px;
-    width: auto;
-    height: auto;
-    text-align: center;
-    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: center;
     align-items: center;
 }
 
-h1 {
-    color: darkorange;
-    font-size: 60px;
+p {
+    margin: 0;
 }
 
 a {
     color: black;
     font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
 }
 
 a:link {
     text-decoration: none;
 }
 
-.lasagna {
-    font-size: 30px;
+a:hover {
+    background-color: blue;
 }
 
-.bread {
-    font-size: 35px;
+p:hover {
+    background-color: blue;
 }
 
+h1 {
+    color: darkorange;
+    background-color: lightgreen;
+    font-size: 60px;
+    width: 100%;
+    border: 1px solid brown;
+    height: 100px;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.lasagna,
+.bread,
 .oatmeal {
+    display: flex;
     font-size: 40px;
+    background: lightgreen;
+    border: 4px solid brown;
+    height: 100px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
